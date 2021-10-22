@@ -1,5 +1,5 @@
-function snapCrackle(maxValue){
-    let texto= ""
+function snapCrackle (maxValue){
+    let texto = ""
     for (let numero=1; numero <= maxValue; numero++){
     
         if ((numero % 2 ==0) && (numero % 5 !==0)){
